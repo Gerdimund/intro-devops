@@ -1,6 +1,6 @@
 terraform{
     backend "s3" {
-        bucket = "platzi-mi-repo-para-terraform"
+        bucket = "s3-bucket-terraform-test-ig2"
         encrypt = true
         key = "terraform.tfstate"
         region = "us-east-1"
